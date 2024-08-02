@@ -11,10 +11,10 @@ public class HomeController {
 	@GetMapping
 	public String getReturnValue() {
 		if("subash.p".equals("subash.p")) {
-			return "subash pernandas";
+			return "subash";
 		}
 		else {
-			return "pernndas savari";
+			return "not equal";
 		}
 	}
 }
